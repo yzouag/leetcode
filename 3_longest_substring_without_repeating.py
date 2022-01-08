@@ -24,21 +24,19 @@ string    a    c    b    d   b   a   c   d
 
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
-        left, right = 0
+        left = 0
         max_length = 0
         seen = {}
-        for i, c in enumerate(s):
-            # case 2
-            if c in seen and seen[c] > left:
+        for right, c in enumerate(s):
+            # if the pointing character is already in the window, update the window's left to exclude the existing character 
+            if c in seen and seen[c] >= left:
                 left = seen[c] + 1
-                seen[c] = i
-            else:
-                right = i
-                seen[c] = i
-            max_length = max(max_length, right-left)
+            # update the seen dictionary
+            seen[c] = right
+            max_length = max(max_length, right-left+1)
         return max_length
 
 
 if __name__ == "__main__":
-    s = "abcabcbb"
+    s = "bbba"
     print(Solution().lengthOfLongestSubstring(s))
