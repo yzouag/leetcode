@@ -24,10 +24,14 @@
       tree, BAM!!!
    - [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)
    - [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
+   - [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) topological sort
+   - [417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)
    - [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/)
    - [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)
       geee... tree is fucking hard
    - [797. All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/)
+   - [815. Bus Routes](https://leetcode.com/problems/bus-routes/) hard, but smart one
+   - [967. Numbers With Same Consecutive Differences](https://leetcode.com/problems/numbers-with-same-consecutive-differences/)
    - [1091. Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)
       one very interesting solution - [A* search](https://leetcode.com/problems/shortest-path-in-binary-matrix/discuss/313347/A*-search-in-Python)
 5. recursion / backtracking
@@ -38,19 +42,31 @@
    - [62. Unique Paths](https://leetcode.com/problems/unique-paths/)
    - [213. House Robber II](https://leetcode.com/problems/house-robber-ii/)
    - [413. Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)
+   - [1770. Maximum Score from Performing Multiplication Operations](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/)
 7. bit manipulation
+   - [393. UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/)
+   - [231. Power of Two](https://leetcode.com/problems/power-of-two/) use of XOR
 8. linked list manipulation
    - [23. merge k sorted list](https://leetcode.com/problems/merge-k-sorted-lists) Use Min Heap, or divide and conquer
    - [24. swap nodes in pair](https://leetcode.com/problems/swap-nodes-in-pairs)
    - [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) general solution for reversing the linked list
    - [148. Sort List](https://leetcode.com/problems/sort-list/) use merge sort
 9. tree structure
+   - [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
+   - [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) binary search tree
    - [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
+   - [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/?envType=study-plan&id=level-2) similar idea to 230 for dfs solution, hard question
    - [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/?envType=study-plan&id=level-2)
-   - [437. Path Sum III](https://leetcode.com/problems/path-sum-iii/)
+   - [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
+   - [429. N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)
+   - [437. Path Sum III](https://leetcode.com/problems/path-sum-iii/) difficult one!!!
    - [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/?envType=study-plan&id=level-2)
+   - [606. Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/)
    - [637. Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)
+   - [814. Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/) 
+   - [987. Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)
    - [1448. Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) DFS
+   - [1457. Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/)
 10. greedy
    - [2131. Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/?envType=study-plan&id=level-2)
    - [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/) really tricky, difficult to explain

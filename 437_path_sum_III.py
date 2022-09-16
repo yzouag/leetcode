@@ -1,3 +1,4 @@
+from collections import defaultdict
 from typing import Optional
 # Definition for a binary tree node.
 class TreeNode:
@@ -8,4 +9,19 @@ class TreeNode:
 
 class Solution:
     def pathSum(self, root: Optional[TreeNode], targetSum: int) -> int:
-        pass
+        self.ans = 0
+        cache = defaultdict(int)
+        cache[0] = 1
+        
+        def dfs(root, cur_sum):
+            if not root:
+                return 
+            cur_sum += root.val
+            self.ans += cache[cur_sum - targetSum]
+            cache[cur_sum] += 1
+            dfs(root.left, cur_sum)
+            dfs(root.right, cur_sum)
+            cache[cur_sum] -= 1
+            
+        dfs(root, 0)
+        return self.ans
