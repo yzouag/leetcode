@@ -40,12 +40,17 @@
    - [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/)
    - [55. Jump Game](https://leetcode.com/problems/jump-game/)
    - [62. Unique Paths](https://leetcode.com/problems/unique-paths/)
+   - [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
    - [213. House Robber II](https://leetcode.com/problems/house-robber-ii/)
+   - [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
+   - [376. Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)
    - [413. Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)
-   - [1770. Maximum Score from Performing Multiplication Operations](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/)
+   - [714. Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) here write the general method for the series of questions
+   - [1770. Maximum Score from Performing Multiplication Operations](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/) 2D DP
 7. bit manipulation
-   - [393. UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/)
+   - [136. Single Number](https://leetcode.com/problems/single-number/) use of XOR, x ^ x = 0, 0 ^ x = x
    - [231. Power of Two](https://leetcode.com/problems/power-of-two/) use of XOR
+   - [393. UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/)
 8. linked list manipulation
    - [23. merge k sorted list](https://leetcode.com/problems/merge-k-sorted-lists) Use Min Heap, or divide and conquer
    - [24. swap nodes in pair](https://leetcode.com/problems/swap-nodes-in-pairs)
@@ -72,5 +77,8 @@
    - [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/) really tricky, difficult to explain
 11. others
    - [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) DFA (deterministic finite automata)
-   - [378. kth smallest in sorted matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) use heap for log(N) insertion
    - [202. Happy Number]() use Floyd's Cycle detection
+   - [336. Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/) hash
+   - [378. kth smallest in sorted matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) use heap for log(N) insertion
+   - [609. Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/) use hash
+   - [990. Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/) union find
