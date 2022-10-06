@@ -40,12 +40,14 @@
    - [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/)
    - [55. Jump Game](https://leetcode.com/problems/jump-game/)
    - [62. Unique Paths](https://leetcode.com/problems/unique-paths/)
+   - [91. Decode Ways](https://leetcode.com/problems/decode-ways/)
    - [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
    - [213. House Robber II](https://leetcode.com/problems/house-robber-ii/)
    - [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
    - [376. Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)
    - [413. Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)
    - [714. Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) here write the general method for the series of questions
+   - [1155. Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/)
    - [1770. Maximum Score from Performing Multiplication Operations](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/) 2D DP
 7. bit manipulation
    - [136. Single Number](https://leetcode.com/problems/single-number/) use of XOR, x ^ x = 0, 0 ^ x = x
@@ -60,6 +62,7 @@
    - [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
    - [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) binary search tree
    - [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
+   - [112. Path Sum](https://leetcode.com/problems/path-sum/)
    - [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/?envType=study-plan&id=level-2) similar idea to 230 for dfs solution, hard question
    - [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/?envType=study-plan&id=level-2)
    - [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
@@ -67,18 +70,26 @@
    - [437. Path Sum III](https://leetcode.com/problems/path-sum-iii/) difficult one!!!
    - [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/?envType=study-plan&id=level-2)
    - [606. Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/)
+   - [623. Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/)
    - [637. Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)
    - [814. Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/) 
    - [987. Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)
    - [1448. Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) DFS
    - [1457. Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/)
 10. greedy
-   - [2131. Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/?envType=study-plan&id=level-2)
+   - [334. Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)
+   - [435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)
    - [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/) really tricky, difficult to explain
+   - [1578. Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/)
+   - [2131. Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/?envType=study-plan&id=level-2)
 11. others
    - [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) DFA (deterministic finite automata)
+   - [59. Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) matrix manipulation
    - [202. Happy Number]() use Floyd's Cycle detection
+   - [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) prefix product and suffix product
    - [336. Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/) hash
    - [378. kth smallest in sorted matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) use heap for log(N) insertion
+   - [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) prefix sum + hashmap, really really brilliant
    - [609. Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/) use hash
+   - [706. Design HashMap](https://leetcode.com/problems/design-hashmap/) implement a hashmap
    - [990. Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/) union find
