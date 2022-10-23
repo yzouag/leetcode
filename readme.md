@@ -35,6 +35,8 @@
    - [1091. Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)
       one very interesting solution - [A* search](https://leetcode.com/problems/shortest-path-in-binary-matrix/discuss/313347/A*-search-in-Python)
 5. recursion / backtracking
+   - [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
+   - [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)
 6. dynamic programming
    - [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
    - [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/)
@@ -42,6 +44,7 @@
    - [62. Unique Paths](https://leetcode.com/problems/unique-paths/)
    - [91. Decode Ways](https://leetcode.com/problems/decode-ways/)
    - [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+   - [139. Word Break](https://leetcode.com/problems/word-break/)
    - [213. House Robber II](https://leetcode.com/problems/house-robber-ii/)
    - [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
    - [376. Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)
@@ -82,7 +85,10 @@
    - [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/) really tricky, difficult to explain
    - [1578. Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/)
    - [2131. Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/?envType=study-plan&id=level-2)
-11. others
+11. heap (priority queue)
+   - questions from expedia.py
+   - [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)
+12. others
    - [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) DFA (deterministic finite automata)
    - [59. Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) matrix manipulation
    - [202. Happy Number]() use Floyd's Cycle detection
