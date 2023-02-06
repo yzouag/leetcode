@@ -99,3 +99,4 @@
    - [609. Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/) use hash
    - [706. Design HashMap](https://leetcode.com/problems/design-hashmap/) implement a hashmap
    - [990. Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/) union find
+   - [1061. Lexicographically Smallest Equivalent String](https://leetcode.com/problems/lexicographically-smallest-equivalent-string/) union find

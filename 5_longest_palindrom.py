@@ -1,32 +1,27 @@
-class Solution:
-    def longestPalindrome(self, s: str) -> str:
-        # method 1: expand around the center
-        # if not s:
-        #     return ""
-        
-        # def expand(left, right):
-        #     while left >= 0 and right < len(s)-1 and s[left] == s[right]:
-        #         left -= 1
-        #         right += 1
-        #     return left, right
-        
-        # maxlen = 0
-        # for i in range(len(s)):
-        #     l1, r1 = expand(i, i)
-        #     l2, r2 = expand(i, i+1)
-        #     if (r1 - l1) > (r2 - l2) and (r1 - l1 + 1) > maxlen:
-        #         start, end, maxlen = l1, r1, (r1 -l1 +1)
-        #     if (r1 - l1) > (r2 - l2) and (r1 - l1 + 1) > maxlen:
-        #         start, end, maxlen = l1, r1, (r1 -l1 +1)
-        # return s[start:end+1]
+def longestPalindrome(s: str) -> str:
+    N = len(s)
+    longest = 0
+    res = ''
 
-        # dynamic programming
-        # denote a[i][j] as the 
+    for i in range(2*N-1):
+        length = 0
+        left = i // 2
+        right = (i+1) // 2
+        while left >= 0 and right < N and s[left] == s[right]:
+            if left == right: length += 1
+            else: length += 2
+            left -= 1
+            right += 1
+        if length > longest:
+            longest = length
+            res = s[left+1:right]
+    return res
 
 if __name__ == "__main__":
     s = "babad"
-    print(Solution().longestPalindrome(s))
-    assert 'bab' == Solution().longestPalindrome(s)
+    print(longestPalindrome(s))
+    assert 'bab' == longestPalindrome(s)
 
     s = "cbbd"
-    assert 'bb' == Solution().longestPalindrome(s)
+    print(longestPalindrome(s))
+    assert 'bb' == longestPalindrome(s)
