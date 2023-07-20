@@ -19,6 +19,8 @@ class LRUCache:
     def __init__(self, capacity: int):
         self.capacity: int = capacity
         self.keyNodeMap: Dict[int, Node] = {}
+        
+        # using the dummy nodes to avoid edge cases
         self.head: Node = Node(0,0)
         self.tail: Node = Node(0,0)
         self.head.post = self.tail
@@ -28,20 +30,24 @@ class LRUCache:
         if key not in self.keyNodeMap:
             return -1
         node = self.keyNodeMap[key]
+        # put node to the front of linked list by remove it and then add it to front
         self.__remove(node)
         self.__add(node)
         return node.val
 
     def put(self, key: int, value: int) -> None:
         if key not in self.keyNodeMap:
+            # create new node and add to front of queue
             newNode = Node(key, value)
             self.__add(newNode)
             self.keyNodeMap[key] = newNode
+            # if exceeds max capacity, pop the last of the node
             if len(self.keyNodeMap) > self.capacity:
                 lastNode = self.tail.prev
                 self.__remove(lastNode)
                 self.keyNodeMap.pop(lastNode.key)
         else:
+            # same as get
             node = self.keyNodeMap[key]
             self.__remove(node)
             self.__add(node)
