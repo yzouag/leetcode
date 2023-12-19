@@ -10,6 +10,13 @@
         "stack": "cpp",
         "unordered_map": "cpp",
         "utility": "cpp",
-        "functional": "cpp"
+        "functional": "cpp",
+        "map": "cpp",
+        "algorithm": "cpp",
+        "string": "cpp",
+        "unordered_set": "cpp",
+        "xstring": "cpp",
+        "queue": "cpp",
+        "xstddef": "cpp"
     }
 }
