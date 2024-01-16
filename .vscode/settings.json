@@ -17,6 +17,8 @@
         "unordered_set": "cpp",
         "xstring": "cpp",
         "queue": "cpp",
-        "xstddef": "cpp"
+        "xstddef": "cpp",
+        "xutility": "cpp",
+        "xtree": "cpp"
     }
 }
