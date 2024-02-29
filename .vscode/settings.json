@@ -19,6 +19,8 @@
         "queue": "cpp",
         "xstddef": "cpp",
         "xutility": "cpp",
-        "xtree": "cpp"
+        "xtree": "cpp",
+        "random": "cpp",
+        "deque": "cpp"
     }
 }
